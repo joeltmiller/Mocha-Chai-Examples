@@ -22,7 +22,6 @@ describe('app', function() {
     it('should return a number', function (){
       expect(app.timesTen(5)).to.be.a('number');
     })
-
   })
 
   describe('randomNum', function (){
